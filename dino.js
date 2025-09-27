@@ -9,9 +9,9 @@ const JUMP_SPEED = 0.45
 const GRAVITY = 0.0015
 const DINO_FRAME_COUNT = 2
 const FRAME_TIME = 100
-let gameSound = new Audio("audio/press_sound.mp3");
+let gameSound = new Audio("audio/hit_sound.mp3");
 gameSound.volume=0.5;
-let Collisionsound = new Audio("audio/hit_sound.mp3");
+let Collisionsound = new Audio("audio/press_sound.mp3");
 Collisionsound.volume = 0.5;
 
 let isJumping
